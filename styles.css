@@ -1,0 +1,118 @@
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: linear-gradient(#023047, #8ecae6);
+    color: #ffffff;
+}
+
+#bff-img {
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid #ffb703;
+    margin-bottom: 10px;
+}
+
+#bday-age {
+    background: #ffb703;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#bday-date {
+    margin: 0;
+    background: #ffb703;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+#gift-img-cheers {
+    height: 200px;
+}
+
+.gift-img {
+    margin: 20px auto;
+    max-width: 600px;
+    height: 600px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("images/presents.jpg");
+    background-size: cover;
+}
+
+#gift-img-happy:hover {
+    background-image: url("images/moyai-stone-face.gif");
+}
+
+#gift-img-shocked {
+    height: 400px;
+}
+
+#gift-img-shocked:hover {
+    background-image: url("images/curious-monkey.gif");
+}
+
+#gift-img-roblox {
+    width: 420px;
+}
+
+#gift-img-roblox:hover {
+    background-image: url("images/roblox.jpg");
+}
+
+#gift-img-eren {
+    height: 620px;
+}
+
+#gift-img-eren:hover {
+    background-image: url("images/eren.jpg");
+}
+
+#gift-img-cheers {
+    width: 300px;
+    height: 600px;
+}
+
+#gift-img-cheers:hover {
+    background-image: url("images/le-mon.jpg");
+}
+
+#footer {
+    font-style: bold;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: #219ebc;
+}
+
+/* 
+Add the footer paragraph according to the design. 
+Configure the anchor tag to open the link in a new tab.
+Forgotten how to do it? Google it! 
+
+Link: 
+https://scrimba.com/learn/htmlandcss
+
+Text:
+Want to create your own Birthday GIFt site? Take this HTML & CSS course.
+*/
